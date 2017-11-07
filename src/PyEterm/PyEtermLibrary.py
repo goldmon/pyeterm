@@ -60,8 +60,8 @@ class PyEtermLibrary(object):
         mac = self.__getMac()
         content += mac.ljust(12, chr(0))
         localip = self.matip.sock.getsockname()[0]
-        content += localip.ljust(16, chr(0x20))
-        content += "3832010.000000"  #the magic code
+        content += localip.ljust(15, chr(0x20))
+        content += "3849010.000000"  #the magic code
         content = content.ljust(162, chr(0))
         
         ## 登录并记录session id
