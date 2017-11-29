@@ -134,7 +134,7 @@ if __name__ == "__main__":
     #username = config.get("eterm", "username")
     #password = config.get("eterm", "password")
 
-    server = "123.57.4.86"
+    server = "XXXXXXX"
     port = 350
     username = "zk"
     password = "zk"
